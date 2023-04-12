@@ -1,0 +1,88 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+background-image:url(/img/firewatch-with-forest-wallpaper-1920x1080_48.jpg);
+height: 100vh;
+background-size: 100%;
+
+}
+
+header{
+height: 150px;
+justify-content: center;
+flex-direction: row;
+background-image: linear-gradient(120deg, #002376 0%, #f68084 100%);
+width:100vw;
+border-bottom:3px solid #761200;
+
+}
+
+.t1{
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px ;
+    bottom: 20px;
+}
+.list1{
+    color: white;
+    display: flex;
+    list-style:none ;
+    justify-content:space-between;
+    min-width:400px ;
+    border: 2px solud red;
+}
+
+.contnav {  
+    background-color: rgb(50, 0, 90);
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  li:hover {
+    background-image: linear-gradient(to top, #cb16c8 0%, #9b23ea 100%);
+    color: white;
+    transition: all 0.8s;
+    cursor: pointer;
+  }
+
+  .img{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    min-height: 30px;
+    display: flex;
+   justify-content: space-between;
+    width: 200px;
+    height: 500px;
+
+  }
+
+  footer {
+    margin-top:700px;
+    height: 100px;
+    border-top: 2px solid red;
+    align-items: center;
+    background-image: linear-gradient(to top, #260126 0%, #5e11bb 100%);
+    color: white;
+  }
+
+  .list2 {
+
+    min-width: 300px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+
+ 
